@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7475E"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_city"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/background_desgin"
+            android:gravity="center"
+            android:text="City Crepe"
+            android:textColor="#E7475E"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/img_city"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/background_desgin"
+            android:src="@drawable/ic_crepe"
+            android:layout_margin="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/txt_mac"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="McDonald's"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#E7475E"
+            android:background="@drawable/background_desgin"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/img_mac"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_chicken_hand_drawn_outline"
+            android:background="@drawable/background_desgin"
+            android:layout_margin="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/txt_hut"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Pizza Hut"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#E7475E"
+            android:background="@drawable/background_desgin"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/img_hut"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_pizza_slice"
+            android:background="@drawable/background_desgin"
+            android:layout_margin="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/txt_tareq"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Abu tareq"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#E7475E"
+            android:background="@drawable/background_desgin"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/img_tareq"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_restaurant"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_desgin"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
